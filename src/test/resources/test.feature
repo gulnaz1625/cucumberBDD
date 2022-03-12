@@ -19,11 +19,11 @@ Feature: We are using this feature to demo class
 
   Scenario: Verify that login to gmail with positive credentials
     Given The user wants to go to google
-    When The user wants to click gmail
-    Then The user wants to enter email
-    And The user wants to enter password
-    Then The user wants to click login
-    And The user wants to verify the first email
+    When  The user wants to click gmail
+    Then  The user wants to enter email
+    And   The user wants to enter password
+    Then  The user wants to click login
+    And   The user wants to verify the first email
 
 
 
