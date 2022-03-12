@@ -11,7 +11,7 @@ public class BrowserUtils extends Driver {
             e.printStackTrace();
         }
     }
-    public void setWaitTime(){
+    public static void setWaitTime(){
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
 }
