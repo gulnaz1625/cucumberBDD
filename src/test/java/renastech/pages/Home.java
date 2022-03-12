@@ -6,9 +6,15 @@ import org.openqa.selenium.support.PageFactory;
 import renastech.utils.BrowserUtils;
 
 public class Home extends BrowserUtils {
-    public Home(){
-        PageFactory.initElements(driver,this); }
-    @FindBy(className = "button special")
+    public Home(){ PageFactory.initElements(driver,this); }
+
+    @FindBy(xpath = "//input[@type='submit']")
     private WebElement buyNow;
+
+
+    public void setBuyNow(){
+        staticWait(2);
+        buyNow.click();
+    }
 
 }
