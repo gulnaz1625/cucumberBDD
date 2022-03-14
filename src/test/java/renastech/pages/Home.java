@@ -15,6 +15,7 @@ public class Home extends BrowserUtils {
     public void setBuyNow(){
         staticWait(2);
         buyNow.click();
+        // Ahmet cok tesekkur ederim.
     }
 
 }
